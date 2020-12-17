@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(77, 70, 70);
+    color: rgb(58, 126, 91);
+}
+
+h1{
+     font-family: "Dancing+Script"; 
+     
+     font-size: 700%;
+}
+
+i{
+    color:rgb(161, 38, 38);
+}
+.big-container{
+    text-align: center;
+    margin: 5%;
+}
+
+
+.dice1 , .dice2 {
+    background-color: rgb(161, 38, 38);
+    width: 300px;
+    border-radius: 10%;
+    padding: 10%;
+}
+
+.circle1 , .circle2 , .circle3 , .circle4 , .circle5 , .circle6 , .circle7 , .circle8 , .circle9{
+    border-radius: 50%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 6% 5%;
+}
+
+.player1 , .player2{
+    display: inline-block;
+    margin: 0% 5% 5%;
+
+}
+
+.player1 p , .player2 p{
+    font-size: 200%;
+    line-height: 1.5;
+    font-family: montserrat;
+}
+
+.copyright{
+    color: white;
+    font-family: montserrat;
+}
+
